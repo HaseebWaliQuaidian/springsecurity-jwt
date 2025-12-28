@@ -1,5 +1,6 @@
 Spring Secruity using JWT Auth  
-Here are steps how to work on it  
+Below is the bried overview of how to configure SpringSecurity with JWT Authentication  
+  
 The process is defined in 2 chunks, 1 (getting the token after login). 2 If token is presented, validating the resuming the request chain.  
   
 Below are the steps for 1st chunk of the work  
