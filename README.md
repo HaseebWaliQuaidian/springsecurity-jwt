@@ -2,8 +2,8 @@ Spring Secruity using JWT Auth
 Here are steps how to work on it
 The process is defined in 2 chunks, 1 (getting the token after login). 2 If token is presented, validating the resuming the request chain.
 
-Below are the steps for 1st chunk of the work
-1 - First of all we need to skip the FilterChain (for authentication/login purpose)
+Below are the steps for 1st chunk of the work \n
+1 - First of all we need to skip the FilterChain (for authentication/login purpose) \n
 2 - We need to add a controller so that we can validate userName and password (in this case AuthController)
 3 - Inside authController we will use AuthenticationManager and once validated, we will create JWT Token
 4 - Return this token to the client
